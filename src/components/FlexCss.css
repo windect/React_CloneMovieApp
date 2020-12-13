@@ -1,0 +1,35 @@
+.father{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* display 선언과 함께 flex가 실행 */
+    /*Main axis*/
+    justify-content:center;
+    /*Cross axis*/
+    align-items : center;
+
+    align-content: space-around;
+    width: 100%;
+    height: 300px;
+    background-color: purple;
+    /* flex-wrap: nowrap; */
+}
+
+.child {
+    width: 100px;
+    align-items : center;
+    background-color: peru;
+    color:white;
+}
+.child:nth-child(1){
+    height: 100px;
+
+}
+.child:nth-child(2){
+    height: 150px;
+    background-color:#000;
+
+}
+.child:nth-child(3){
+    height: 170px;
+}
